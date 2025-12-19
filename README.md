@@ -9,8 +9,9 @@ This project implements a medallion architecture data warehouse on Databricks, t
 ### Architecture Design
 
 #### Medallion Architecture Layers
-The project implements a four-layer medallion architecture, each serving a specific purpose in the data transformation journey:
-00_source  → Raw ingestion layer (landing zone)
-01_bronze  → Raw data preservation with metadata
-02_silver  → Cleaned, validated, conformed data
-03_gold    → Business-ready aggregated metrics
+The project implements a **four-layer medallion architecture**, each serving a specific purpose in the data transformation journey:
+
+- 00_source  → Raw ingestion layer (landing zone)
+- 01_bronze  → Raw data preservation with metadata
+- 02_silver  → Cleaned, validated, conformed data
+- 03_gold    → Business-ready aggregated metrics
