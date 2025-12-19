@@ -15,3 +15,11 @@ The project implements a **four-layer medallion architecture**, each serving a s
 - 01_bronze  → Raw data preservation with metadata
 - 02_silver  → Cleaned, validated, conformed data
 - 03_gold    → Business-ready aggregated metrics
+
+### Infrastructure Setup
+#### Databricks Environment:
+
+- **Platform**: Databricks Free Edition (Community Edition)
+- **Workspace**: ppl_data_warehouse
+- **Catalog**: ppl_data_warehouse (Unity Catalog structure)
+- **Storage Format**: Delta Lake (ACID-compliant)
