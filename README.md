@@ -1,4 +1,4 @@
-<img src="https://github.com/sularaperera/Medallion-Architecture-Data-Warehouse-Daily-Sales-Analytics-Pipeline-Databricks/blob/main/Cover_Image.jpg"></img>
+<img src="https://github.com/sularaperera/Medallion-Architecture-Data-Warehouse-Daily-Sales-Analytics-Pipeline-Databricks/blob/main/github_cover.jpg"></img>
 
 # Medallion-Architecture-Data-Warehouse-Daily-Sales-Analytics-Pipeline
 
