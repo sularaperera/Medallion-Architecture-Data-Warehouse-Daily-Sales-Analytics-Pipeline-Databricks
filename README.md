@@ -1,10 +1,10 @@
 <img src="https://github.com/sularaperera/Medallion-Architecture-Data-Warehouse-Daily-Sales-Analytics-Pipeline-Databricks/blob/main/github_cover.png"></img>
 
-# Data Warehouse ETL Project: Medallion Architecture with SCD Implementation
+# Data Warehouse ETL Project: Medallion Architecture with SCD Implementation - Databricks
 
-## 🎯 Project Overview
+## Project Overview
 
-This project demonstrates a comprehensive end-to-end data warehouse solution built on **Databricks**, implementing industry-standard **Medallion Architecture** and **Star Schema** design patterns. The project showcases advanced data engineering concepts including incremental data loading, slowly changing dimensions (SCD Type 1 and Type 2), and dimensional modeling best practices.
+This project demonstrates a comprehensive end-to-end data warehouse solution built on Databricks, implementing industry standard Medallion Architecture and Star Schema design patterns. The project showcases advanced data engineering concepts including incremental data loading, slowly changing dimensions (SCD Type 1 and Type 2), and dimensional modeling best practices.
 
 **Key Highlights:**
 - Full ETL pipeline implementation using Databricks
@@ -15,13 +15,12 @@ This project demonstrates a comprehensive end-to-end data warehouse solution bui
 - Surrogate key implementation for dimension tables
 - Fact and dimension table creation with proper relationships
 
----
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### Medallion Architecture Layers
 
-The project follows the **Medallion Architecture**, a best-practice design pattern for data lakes that organizes data into three progressive layers:
+The project follows the Medallion Architecture, a best practice design pattern that organizes data into three progressive layers:
 
 ```
 Source Layer → Bronze Layer → Silver Layer → Gold Layer
@@ -37,7 +36,7 @@ Source Layer → Bronze Layer → Silver Layer → Gold Layer
 #### **2. Bronze Layer (Staging/Raw)**
 - **Purpose**: Incremental data ingestion with minimal transformation
 - **Schema**: `project_1_data_modeling.bronze`
-- **Function**: Implements **transient staging** approach for efficient incremental loading
+- **Function**: Implements transient staging approach for efficient incremental loading
 - **Loading Strategy**: Delta-based incremental loading using `order_date` as watermark
 - **Optimization**: Avoids redundant full reloads, only processes new/changed records
 
@@ -56,7 +55,6 @@ Source Layer → Bronze Layer → Silver Layer → Gold Layer
 - **Function**: Dimensional modeling with fact and dimension tables
 - **Design Pattern**: Star Schema with surrogate keys
 
----
 
 
 
