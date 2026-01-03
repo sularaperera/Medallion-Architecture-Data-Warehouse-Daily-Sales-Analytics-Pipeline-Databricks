@@ -443,12 +443,12 @@ WHERE product_id = 3;
 - New record: `product_id=3, category='new_category', is_active='Y', end_date='3000-01-01'`
 
 **SCD Type 2 Characteristics**:
-- ✅ Complete history preservation
-- ✅ Point-in-time reporting capabilities
-- ✅ Trend analysis and auditing
-- ✅ Compliance-ready
-- ❌ Increased storage requirements
-- ❌ More complex queries (need to filter for active records)
+- Complete history preservation
+- Point-in-time reporting capabilities
+- Trend analysis and auditing
+- Compliance-ready
+- Increased storage requirements
+- More complex queries (need to filter for active records)
 - **Best For**: Price history, customer attributes, product classifications, any data requiring historical analysis
 
 ---
@@ -479,21 +479,6 @@ WHERE product_id = 3;
    - MERGE operations for efficient upserts
    - Schema enforcement and evolution
    - Time travel for data versioning
-
-
-
-### Code Organization
-```
-Workspace: project_1_data_modeling/
-├── notebooks/
-│   ├── source.ipynb          # Source data ingestion
-│   ├── bronze.ipynb          # Bronze layer processing
-│   ├── silver.ipynb          # Silver layer transformations
-│   ├── gold_dimensions.ipynb # Dimension table creation
-│   ├── gold_fact.ipynb       # Fact table creation
-│   ├── scd_type1.ipynb       # SCD Type 1 implementation
-│   └── scd_type2.ipynb       # SCD Type 2 implementation
-```
 
 ---
 
@@ -604,14 +589,14 @@ This project demonstrates practical data warehouse capabilities that deliver bus
 
 ## 📚 Technical Skills Showcased
 
-- ✅ SQL (DDL, DML, MERGE, CTEs, Window Functions)
-- ✅ PySpark (DataFrames, Temp Views, Dynamic SQL)
-- ✅ Databricks Platform (Notebooks, Unity Catalog, Delta Lake)
-- ✅ Data Modeling (Star Schema, Dimensional Design, Surrogate Keys)
-- ✅ ETL Design Patterns (Medallion Architecture, Incremental Loading)
-- ✅ Change Data Capture (SCD Type 1, SCD Type 2)
-- ✅ Data Warehousing Concepts (Fact/Dimension Tables, OLAP)
-- ✅ Performance Optimization (Incremental Processing, Index Design)
+- SQL (DDL, DML, MERGE, CTEs, Window Functions)
+- PySpark (DataFrames, Temp Views, Dynamic SQL)
+- Databricks Platform (Notebooks, Unity Catalog, Delta Lake)
+- Data Modeling (Star Schema, Dimensional Design, Surrogate Keys)
+- ETL Design Patterns (Medallion Architecture, Incremental Loading)
+- Change Data Capture (SCD Type 1, SCD Type 2)
+- Data Warehousing Concepts (Fact/Dimension Tables, OLAP)
+- Performance Optimization (Incremental Processing, Index Design)
 
 ---
 
