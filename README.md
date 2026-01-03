@@ -274,7 +274,7 @@ LEFT JOIN project_1_data_modeling.gold.dimorders o
 
 ---
 
-## 🔄 Slowly Changing Dimension (SCD) Implementation
+## Slowly Changing Dimension (SCD) Implementation
 
 ### SCD Type 1: Latest Value Only (No History)
 
